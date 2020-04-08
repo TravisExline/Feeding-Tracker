@@ -1,0 +1,20 @@
+.feed-card {
+    border: solid 8px green;
+    border-radius: 10px;
+    box-shadow: 3px 3px lightslategray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 800px;
+    margin-right: 900px;
+    margin-top: 50px;
+}
+
+.feed-name {
+    font-size: 35px;
+    border-bottom: dotted green;
+}
+
+.feed-date {
+    font-size: 20px;
+}

@@ -1,0 +1,45 @@
+.reptile-form-header {
+    padding-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.reptile-form {
+    display: grid;
+    padding-top: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+
+.name-input {
+    border-radius: 5px;
+    display: grid;
+    font-size: 30px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.age-input {
+    border-radius: 5px;
+    display: grid;
+    font-size: 30px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.species-input {
+    border-radius: 5px;
+    display: grid;
+    font-size: 30px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.submit-reptile {
+    border-radius: 10px;
+    box-shadow: 2px 2px lightslategray;
+    display: grid;
+    font-size: 30px;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}

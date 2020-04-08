@@ -1,0 +1,3 @@
+class Feeding < ApplicationRecord
+    
+end

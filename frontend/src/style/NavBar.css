@@ -1,0 +1,45 @@
+.nav-container {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(90, 153, 90);
+    outline-style: solid;
+    outline-width: 8px;
+    outline-color: rgba(68, 143, 68, 0.842);
+}
+
+.creation-link {
+    font-size: 20px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.create-feed-link {
+    font-size: 20px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.home-link {
+    font-size: 20px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.reptiles-link {
+    font-size: 20px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.feeds-link {
+    font-size: 20px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+}
