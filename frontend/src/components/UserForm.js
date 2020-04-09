@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {createUser} from '../actions/userActions'
+import '../style/SignIn.css'
 
 class UserForm extends React.Component {
 
@@ -24,10 +25,10 @@ class UserForm extends React.Component {
     render() {
         return(
             <div>
-                <h2>Sign In or Sign Up Below!</h2>
+                <h2 className='user-form-header'>Sign In or Sign Up Below!</h2>
                 <form className='user-form' onSubmit={event => this.handleSubmit(event)}>
                     <input className='username-input' type='text' name='username' placeholder='Enter Your Username' onChange={event => this.handleChange(event)} value={this.props.username} />
-                    <input className='Password-input' type='text' name='password' placeholder='Enter Your Password' onChange={event => this.handleChange(event)} value={this.props.password} />
+                    <input className='password-input' type='text' name='password' placeholder='Enter Your Password' onChange={event => this.handleChange(event)} value={this.props.password} />
                     <input className="submit-user" type='submit' name='submit' />
                 </form>
             </div>

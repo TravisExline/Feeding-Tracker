@@ -1,0 +1,33 @@
+.user-form-header {
+    padding-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.user-form {
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.username-input {
+    display: grid;
+    font-size: 25px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.password-input {
+    display: grid;
+    font-size: 25px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.submit-user {
+    display: grid;
+    font-size: 25px;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
