@@ -16,6 +16,7 @@
     font-size: 25px;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    border-radius: 5px;
 }
 
 .password-input {
@@ -23,6 +24,7 @@
     font-size: 25px;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    border-radius: 5px;
 }
 
 .submit-user {
@@ -30,4 +32,6 @@
     font-size: 25px;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px lightslategray;
 }
